@@ -5,7 +5,7 @@ export default {
     title: 'Components/Button',
     component: Button,
     args: {
-        children: 'Example Text'
+        children: 'Create account'
     },
     argTypes: {
        
