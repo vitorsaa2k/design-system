@@ -1,19 +1,14 @@
 import './styles/global.css';
-import { TextInput } from './components/TextInput';
-import { Envelope } from 'phosphor-react';
+import { SignIn } from './pages/SignIg';
 
-export function App() {
-  return (
-    <>
-      <TextInput.Root children={
-        [
-          <TextInput.Icon>
-          <Envelope />
-          </TextInput.Icon>,
-          <TextInput.Input placeholder='johndoe@example.com' />
-        ]
-      } />
-    </>
-  )
+
+export interface SignInProps {}
+
+
+export function App(props :SignInProps) {
+    return (
+       <div>
+        <SignIn />
+       </div>
+    )
 }
-
